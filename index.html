@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>果冻传媒孟若羽-作品档案与观看指南</title>
+<meta name="description" content="果冻传媒孟若羽作品档案：按上线时间、题材类型、角色设定整理可查片单，附真假信息辨别方法、播放渠道差异对照、观众评价与常见疑问解答，帮助快速定位想看的内容。">
+<meta name="keywords" content="果冻传媒孟若羽">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f24b6a'/%3E%3Ccircle cx='32' cy='26' r='11' fill='%23ffe9ee'/%3E%3Cpath d='M14 54c3-12 10-17 18-17s15 5 18 17z' fill='%23ffe9ee'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"果冻传媒孟若羽","inLanguage":"zh-CN","description":"果冻传媒孟若羽作品档案与观看指南","potentialAction":{"@type":"SearchAction","target":"/?q={query}","query-input":"required name=query"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"孟若羽在果冻传媒最早可查的上线作品是哪一部？","acceptedAnswer":{"@type":"Answer","text":"公开片单里能对上日期的早期条目是2023年9月上线的《雨夜便利店》，片尾演职员表标注主演孟若羽，片长约42分钟，分上下两集。"}},
+{"@type":"Question","name":"同一部作品在不同平台片长为什么不一样？","acceptedAnswer":{"@type":"Answer","text":"正片版与剪辑版分开上线，剪辑版通常砍掉开场铺垫与片尾花絮，时长差在6到15分钟；部分平台还在片头加贴片广告，计时方式按播放器走，实际内容未必减少。"}},
+{"@type":"Question","name":"网上流传的“未公开片段”能信吗？","acceptedAnswer":{"@type":"Answer","text":"先看片尾是否带制作方水印与演职员表。2026年10月下旬流传的一段标称孟若羽的竖屏视频，画面比例、灯光色温与《合租第7天》正片不一致，官方账号11月2日回应称非官方素材，之后未再补充说明。"}},
+{"@type":"Question","name":"想系统补片，按什么顺序看比较省时间？","acceptedAnswer":{"@type":"Answer","text":"按上线时间排，先看2024年都市合租系列四部，再看2025年悬疑短剧两部，最后补2026年客串条目。合租系列人物关系连续，跳看容易接不上配角动机。"}},
+{"@type":"Question","name":"豆瓣条目和片方片单对不上，以哪个为准？","acceptedAnswer":{"@type":"Answer","text":"以片方片单的片名与上线日期为准，豆瓣条目常由用户创建，集数、时长字段滞后；评分和短评可以参考，但需注意条目可能被合并或拆分。"}},
+{"@type":"Question","name":"搜索片名时出现大量同名结果怎么办？","acceptedAnswer":{"@type":"Answer","text":"叠加限定词：演员名加年份，或加系列名，例如“孟若羽 2024 都市合租”。也可用片尾演职员表里的导演名反查，重名率明显更低。"}}
+]}
+</script>
+<style>
+:root{
+  --brand:#f24b6a;--brand-dark:#c22f4d;--brand-soft:#ffe9ee;
+  --ink:#1e2027;--ink-2:#474c5a;--ink-3:#767c8c;
+  --bg:#fbf7f8;--card:#ffffff;--line:#e8dfe2;
+  --accent:#2f6f6a;--accent-soft:#e3f1ef;
+  --warn:#a8651b;--warn-soft:#fdf1e0;
+  --radius:14px;--radius-sm:8px;
+  --shadow:0 2px 10px rgba(30,32,39,.06);
+  --shadow-lg:0 10px 28px rgba(30,32,39,.10);
+  --space:clamp(14px,2vw,22px);
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --ann-h:38px;--head-h:64px;
+  --maxw:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);line-height:1.75;font-size:16px;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:var(--brand-dark);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{line-height:1.35;margin:0}
+p{margin:0 0 .85em}
+ul,ol{margin:0 0 .85em;padding-left:1.3em}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+/* ===== 吸顶公告条 + 页头 ===== */
+.sticky-zone{position:sticky;top:0;z-index:60}
+.annbar{
+  height:var(--ann-h);display:flex;align-items:center;gap:10px;
+  background:linear-gradient(90deg,#1e2027,#33384a);
+  color:#f4eef0;font-size:13px;padding:0 16px;overflow:hidden;white-space:nowrap;
+}
+.annbar .tag{background:var(--brand);color:#fff;font-size:11px;padding:1px 7px;border-radius:20px;flex:none;letter-spacing:.5px}
+.annbar .txt{overflow:hidden;text-overflow:ellipsis}
+.annbar a{color:#ffc9d4;text-decoration:underline}
+.site-head{
+  height:var(--head-h);display:flex;align-items:center;gap:18px;
+  background:rgba(255,255,255,.96);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);padding:0 16px;box-shadow:var(--shadow);
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none;text-decoration:none!important;color:var(--ink)}
+.brand svg{width:36px;height:36px;flex:none}
+.brand .bname{font-weight:800;font-size:17px;letter-spacing:.5px}
+.brand .bsub{display:block;font-size:10px;color:var(--ink-3);font-weight:500;letter-spacing:1.5px}
+.head-nav{display:flex;gap:4px;margin-left:6px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+.head-nav::-webkit-scrollbar{display:none}
+.head-nav a{font-size:14px;color:var(--ink-2);padding:6px 10px;border-radius:20px;white-space:nowrap}
+.head-nav a:hover{background:var(--brand-soft);color:var(--brand-dark);text-decoration:none}
+.head-tools{margin-left:auto;display:flex;align-items:center;gap:8px}
+.search-wrap{position:relative;display:flex;align-items:center}
+.search-wrap input{
+  width:180px;padding:7px 32px 7px 12px;border:1px solid var(--line);border-radius:20px;
+  font-size:13px;background:#faf6f7;color:var(--ink);
+}
+.search-wrap input:focus{outline:none;border-color:var(--brand);background:#fff}
+.search-wrap .ico{position:absolute;right:10px;pointer-events:none;width:15px;height:15px}
+.search-result{
+  position:absolute;top:calc(100% + 8px);right:0;width:290px;max-height:320px;overflow:auto;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-lg);
+  padding:6px;font-size:13px;display:none;z-index:90;
+}
+.search-result.on{display:block}
+.search-result .sr-item{display:block;padding:7px 9px;border-radius:6px;color:var(--ink)}
+.search-result .sr-item:hover{background:var(--brand-soft);text-decoration:none}
+.search-result .sr-empty{padding:12px;color:var(--ink-3)}
+.search-result .sr-meta{font-size:11px;color:var(--ink-3)}
+.menu-btn{
+  display:none;background:var(--brand-soft);border:1px solid #f5c9d2;color:var(--brand-dark);
+  border-radius:10px;width:38px;height:38px;align-items:center;justify-content:center;cursor:pointer;flex:none;
+}
+.menu-btn svg{width:18px;height:18px}
+
+/* ===== 布局 ===== */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 16px}
+section[id],div[id]{scroll-margin-top:calc(var(--ann-h) + var(--head-h) + 12px)}
+.layout{display:grid;grid-template-columns:1fr 292px;gap:26px;align-items:start;margin-top:26px}
+.main-col{min-width:0}
+.side-col{position:sticky;top:calc(var(--ann-h) + var(--head-h) + 16px);min-width:0}
+
+/* ===== 首屏 ===== */
+.hero{
+  position:relative;overflow:hidden;padding:38px 0 30px;
+  background:radial-gradient(1200px 320px at 82% -10%,#ffd9e2 0%,transparent 62%),
+             radial-gradient(900px 300px at 8% 110%,#e3f1ef 0%,transparent 60%),#fff;
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:center}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:var(--brand-soft);color:var(--brand-dark);font-size:12.5px;font-weight:600;padding:5px 12px;border-radius:20px;margin-bottom:14px}
+.hero-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--brand)}
+h1{font-size:clamp(26px,4.4vw,42px);letter-spacing:.5px;font-weight:900;margin-bottom:12px}
+h1 .hl{color:var(--brand-dark)}
+.hero-lead{font-size:15.5px;color:var(--ink-2);max-width:33em;margin-bottom:18px}
+.hero-facts{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.fact{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 13px;font-size:12.5px;color:var(--ink-2);box-shadow:var(--shadow)}
+.fact b{display:block;font-size:17px;color:var(--brand-dark);line-height:1.2}
+.hero-cta{display:flex;gap:10px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:7px;padding:10px 20px;border-radius:24px;
+  font-size:14px;font-weight:600;border:1px solid transparent;cursor:pointer;transition:transform .15s;
+}
+.btn:hover{transform:translateY(-2px);text-decoration:none}
+.btn-a{background:var(--brand);color:#fff;box-shadow:0 6px 16px rgba(242,75,106,.28)}
+.btn-b{background:#fff;color:var(--brand-dark);border-color:#f3b6c4}
+/* 原创视觉：叠层播放卡 */
+.hero-art{position:relative;height:300px}
+.art-card{
+  position:absolute;border-radius:16px;overflow:hidden;box-shadow:var(--shadow-lg);background:#fff;
+}
+.art-a{width:186px;height:250px;right:56px;top:6px;transform:rotate(-4deg);background:linear-gradient(150deg,#ffb3c4,#f24b6a 55%,#8b1f36);display:flex;flex-direction:column;justify-content:flex-end;padding:14px;color:#fff}
+.art-b{width:150px;height:196px;right:0;bottom:0;transform:rotate(5deg);background:linear-gradient(160deg,#2f6f6a,#1d4a46);color:#e9fbf8;padding:13px;display:flex;flex-direction:column;justify-content:space-between}
+.art-a .num{font-size:38px;font-weight:900;line-height:1;letter-spacing:1px}
+.art-a .cap{font-size:12px;opacity:.9;margin-top:4px;letter-spacing:1px}
+.art-b .t{font-size:13px;font-weight:700}
+.art-b .bars{display:flex;gap:4px;align-items:flex-end;height:56px;margin-top:8px}
+.art-b .bars i{flex:1;background:#8fd6cc;border-radius:3px 3px 0 0;display:block}
+.art-tag{position:absolute;left:0;top:26px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:12px;box-shadow:var(--shadow);color:var(--ink-2)}
+.art-tag b{color:var(--brand-dark);font-size:14px}
+
+/* ===== 板块通用 ===== */
+.block{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:var(--space) clamp(14px,2.4vw,24px);margin-bottom:22px;box-shadow:var(--shadow)}
+.block-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.block-h h2{font-size:19.5px;letter-spacing:.3px}
+.block-h .kicker{font-size:11.5px;color:var(--brand-dark);background:var(--brand-soft);padding:2px 9px;border-radius:20px;font-weight:600;letter-spacing:.5px}
+.block-sub{font-size:13.5px;color:var(--ink-3);margin-bottom:16px}
+.more-link{font-size:13px;margin-left:auto;white-space:nowrap}
+
+/* 概览条 */
+.overview{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:4px}
+.ov-item{border:1px solid var(--line);border-radius:10px;padding:11px 12px;background:#fffdfd}
+.ov-item b{display:block;font-size:19px;color:var(--ink);line-height:1.2}
+.ov-item span{font-size:12px;color:var(--ink-3)}
+.ov-note{font-size:12.5px;color:var(--ink-3);margin-top:10px}
+
+/* 精选卡片 */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.pick-card{border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:transform .16s}
+.pick-card:hover{transform:translateY(-3px)}
+.pick-card img{width:100%;height:132px;object-fit:cover}
+.pick-body{padding:11px 12px;flex:1;display:flex;flex-direction:column;gap:5px}
+.pick-body h3{font-size:14.5px}
+.pick-body p{font-size:12.5px;color:var(--ink-2);margin:0}
+.pick-meta{font-size:11.5px;color:var(--ink-3);margin-top:auto;padding-top:6px;border-top:1px dashed var(--line)}
+.chip{display:inline-block;font-size:11px;padding:1px 8px;border-radius:20px;background:var(--accent-soft);color:#1d4a46;margin-right:4px}
+
+/* 最新更新紧凑列表 */
+.upd-list{list-style:none;padding:0;margin:0}
+.upd-list li{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:13.5px;align-items:baseline}
+.upd-list li:last-child{border-bottom:0}
+.upd-list .d{flex:none;width:74px;color:var(--brand-dark);font-weight:700;font-size:12.5px}
+.upd-list .s{color:var(--ink-2)}
+.upd-list .s b{color:var(--ink)}
+
+/* 分类入口标签索引 */
+.cat-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cat-group h3{font-size:13.5px;color:var(--ink-2);margin-bottom:8px;padding-bottom:4px;border-bottom:2px solid var(--brand-soft)}
+.tag-row{display:flex;flex-wrap:wrap;gap:7px}
+.tag-row a{font-size:12.5px;background:#f7f2f3;border:1px solid var(--line);border-radius:20px;padding:4px 11px;color:var(--ink-2)}
+.tag-row a:hover{background:var(--brand-soft);border-color:#f3c2cd;color:var(--brand-dark);text-decoration:none}
+
+/* 深度解析 */
+.deep{background:linear-gradient(180deg,#fffdfd,#fff8f9);border-color:#f2dbe0}
+.deep h3{font-size:16px;margin:18px 0 8px;padding-left:10px;border-left:3px solid var(--brand)}
+.deep h3:first-of-type{margin-top:4px}
+.deep p{font-size:14.5px;color:#2c2f38}
+.verdict{
+  background:#fff;border:1px solid #f0c6d0;border-left:4px solid var(--brand);border-radius:0 10px 10px 0;
+  padding:12px 15px;margin:14px 0;font-size:14px;box-shadow:var(--shadow)
+}
+.verdict b{color:var(--brand-dark)}
+table.cmp{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0 16px}
+table.cmp th,table.cmp td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+table.cmp th{background:#faf3f5;font-weight:700;color:var(--ink-2)}
+table.cmp caption{caption-side:top;text-align:left;font-size:12px;color:var(--ink-3);padding-bottom:6px}
+.checklist{list-style:none;padding:0;margin:8px 0 4px}
+.checklist li{font-size:13.5px;padding:6px 0 6px 24px;position:relative;border-bottom:1px dotted var(--line)}
+.checklist li::before{content:"✓";position:absolute;left:2px;color:var(--accent);font-weight:800}
+.checklist li:last-child{border-bottom:0}
+
+/* 体验指南 编号步骤 */
+.steps{list-style:none;padding:0;margin:0;counter-reset:st}
+.steps li{position:relative;padding:0 0 16px 44px;counter-increment:st;font-size:14px}
+.steps li::before{
+  content:counter(st);position:absolute;left:0;top:0;width:29px;height:29px;border-radius:50%;
+  background:var(--brand-soft);color:var(--brand-dark);font-weight:800;font-size:13px;
+  display:flex;align-items:center;justify-content:center;
+}
+.steps li b{display:block;font-size:14.5px;margin-bottom:2px}
+.steps li:not(:last-child)::after{content:"";position:absolute;left:14px;top:32px;bottom:4px;width:1px;background:var(--line)}
+.steps li p{font-size:13px;color:var(--ink-2);margin:0}
+
+/* FAQ */
+details.faq{border-bottom:1px solid var(--line);padding:2px 0}
+details.faq:last-of-type{border-bottom:0}
+details.faq summary{
+  cursor:pointer;list-style:none;padding:11px 26px 11px 0;font-size:14px;font-weight:600;position:relative;
+}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"+";position:absolute;right:4px;top:9px;font-size:18px;color:var(--brand);font-weight:400}
+details.faq[open] summary::after{content:"–"}
+details.faq .ans{font-size:13.5px;color:var(--ink-2);padding:0 0 12px;max-width:56em}
+
+/* 评论 */
+.cmt{display:grid;gap:12px}
+.cmt-item{border:1px solid var(--line);border-radius:var(--radius-sm);padding:11px 13px;background:#fffdfd}
+.cmt-top{display:flex;gap:8px;align-items:center;font-size:12.5px;margin-bottom:4px}
+.avatar{width:26px;height:26px;border-radius:50%;background:var(--brand-soft);color:var(--brand-dark);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;flex:none}
+.cmt-top .u{font-weight:700;color:var(--ink-2)}
+.cmt-top .t{margin-left:auto;color:var(--ink-3);font-size:11.5px}
+.cmt-item p{font-size:13.5px;margin:0;color:#2c2f38}
+.star{color:#e0a030;letter-spacing:1px;font-size:12px}
+
+/* 资讯列表 */
+.news{list-style:none;padding:0;margin:0}
+.news li{padding:10px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+.news li:last-child{border-bottom:0}
+.news .nt{display:block;font-weight:600;color:var(--ink);margin-bottom:2px}
+.news .nb{color:var(--ink-3);font-size:12.5px}
+.news .src{color:var(--accent);font-size:12px}
+
+/* 相关推荐 */
+.reco{display:flex;flex-wrap:wrap;gap:8px}
+.reco a{font-size:13px;background:var(--accent-soft);color:#1d4a46;padding:6px 13px;border-radius:8px;border:1px solid #cfe6e2}
+.reco a:hover{background:#d3eae6;text-decoration:none}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;counter-reset:rk}
+.rank li{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);counter-increment:rk;font-size:13.5px}
+.rank li:last-child{border-bottom:0}
+.rank li::before{
+  content:counter(rk);flex:none;width:24px;height:24px;border-radius:7px;background:#f3edee;color:var(--ink-2);
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12.5px;
+}
+.rank li:nth-child(1)::before{background:var(--brand);color:#fff}
+.rank li:nth-child(2)::before{background:#f6b3c1;color:#7a1b30}
+.rank li:nth-child(3)::before{background:#fadbd8;color:#7a1b30}
+.rank .rk-t{font-weight:700}
+.rank .rk-m{font-size:12px;color:var(--ink-3);display:block}
+
+/* 侧栏 */
+.side-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:18px;box-shadow:var(--shadow)}
+.side-card h3{font-size:14.5px;margin-bottom:10px;display:flex;align-items:center;gap:7px}
+.side-card h3::before{content:"";width:3px;height:14px;background:var(--brand);border-radius:2px}
+.side-nav{list-style:none;padding:0;margin:0;font-size:13.5px}
+.side-nav a{display:block;padding:6px 10px;border-radius:7px;color:var(--ink-2);border-left:2px solid transparent}
+.side-nav a:hover{background:#faf4f5;text-decoration:none}
+.side-nav a.active{background:var(--brand-soft);color:var(--brand-dark);font-weight:700;border-left-color:var(--brand)}
+.side-list{list-style:none;padding:0;margin:0;font-size:13px}
+.side-list li{padding:7px 0;border-bottom:1px dashed var(--line);display:flex;gap:8px;align-items:baseline}
+.side-list li:last-child{border-bottom:0}
+.side-list .sn{color:var(--brand-dark);font-weight:800;font-size:12px}
+.side-list a{color:var(--ink-2)}
+.timeline{list-style:none;padding:0 0 0 14px;margin:0;border-left:2px solid var(--brand-soft);font-size:12.5px}
+.timeline li{position:relative;padding:0 0 12px 12px;color:var(--ink-2)}
+.timeline li::before{content:"";position:absolute;left:-21px;top:6px;width:8px;height:8px;border-radius:50%;background:var(--brand);border:2px solid #fff}
+.timeline b{color:var(--ink);display:block;font-size:12.5px}
+.side-note{font-size:12px;color:var(--ink-3);margin-top:8px}
+
+/* 页尾 */
+.site-foot{background:#1e2027;color:#c8cbd4;margin-top:34px;padding:34px 0 22px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:24px}
+.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px;color:#fff}
+.foot-brand svg{width:34px;height:34px}
+.foot-brand strong{font-size:16px}
+.foot-desc{font-size:13px;color:#9ea3b0;max-width:26em}
+.foot-col h4{font-size:13px;color:#fff;margin-bottom:9px;letter-spacing:.5px}
+.foot-col ul{list-style:none;padding:0;margin:0;font-size:12.5px}
+.foot-col li{padding:3px 0}
+.foot-col a{color:#aeb3bf}
+.foot-col a:hover{color:#fff}
+.foot-bottom{border-top:1px solid #33373f;margin-top:24px;padding-top:14px;font-size:12px;color:#8a8f9b;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;line-height:1.9}
+.foot-bottom a{color:#aeb3bf;text-decoration:underline}
+
+/* 回顶部 */
+#toTop{
+  position:fixed;right:18px;bottom:22px;width:44px;height:44px;border-radius:50%;
+  background:var(--brand);color:#fff;border:0;cursor:pointer;box-shadow:0 8px 20px rgba(242,75,106,.35);
+  display:none;align-items:center;justify-content:center;z-index:70;
+}
+#toTop.on{display:flex}
+#toTop svg{width:18px;height:18px}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .layout{grid-template-columns:1fr}
+  .side-col{position:static}
+  .hero-inner{grid-template-columns:1fr}
+  .hero-art{height:230px;max-width:420px}
+  .card-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-cols{grid-template-columns:repeat(2,1fr)}
+  .overview{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  :root{--ann-h:36px;--head-h:58px}
+  .head-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:#fff;border-bottom:1px solid var(--line);box-shadow:var(--shadow-lg);
+    flex-direction:column;padding:8px;gap:2px;max-height:70vh;overflow:auto;
+  }
+  .head-nav.open{display:flex}
+  .head-nav a{padding:10px 12px;border-radius:8px}
+  .site-head{position:relative}
+  .menu-btn{display:flex}
+  .search-wrap input{width:130px}
+  .search-result{width:min(290px,calc(100vw - 32px))}
+  .card-grid{grid-template-columns:1fr}
+  .cat-cols{grid-template-columns:1fr}
+  .hero{padding:26px 0 22px}
+  .hero-art{height:210px;max-width:340px}
+  .art-a{width:150px;height:200px;right:40px}
+  .art-b{width:120px;height:160px}
+  .foot-grid{grid-template-columns:1fr}
+  #toTop{right:12px;bottom:14px;width:40px;height:40px}
+  .upd-list li{flex-direction:column;gap:2px}
+  .upd-list .d{width:auto}
+  table.cmp{font-size:12px}
+  table.cmp th,table.cmp td{padding:6px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .pick-card:hover,.btn:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-zone">
+  <div class="annbar" role="region" aria-label="站内公告">
+    <span class="tag">更新</span>
+    <span class="txt">11月6日补入《合租第7天》导演剪辑版片长对照，<a href="/#shallow">深度解析</a>同步更正一处演员署名</span>
+  </div>
+
+  <header class="site-head">
+    <a class="brand" href="/#top" aria-label="果冻传媒孟若羽 首页">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ff8ea3"/><stop offset="1" stop-color="#e0304f"/>
+        </linearGradient></defs>
+        <rect width="64" height="64" rx="15" fill="url(#lg)"/>
+        <circle cx="32" cy="25" r="10.5" fill="#ffe9ee"/>
+        <path d="M13 55c3-12.5 10.5-17.5 19-17.5S48 42.5 51 55z" fill="#ffe9ee"/>
+        <circle cx="28" cy="23" r="1.7" fill="#e0304f"/><circle cx="36" cy="23" r="1.7" fill="#e0304f"/>
+        <path d="M28 29.5c2.4 1.8 5.6 1.8 8 0" stroke="#e0304f" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span>
+        <span class="bname">果冻传媒孟若羽</span>
+        <span class="bsub">作品档案 · 片单核校</span>
+      </span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="headNav" aria-label="展开主题导航">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <nav class="head-nav" id="headNav" aria-label="主题导航">
+      <a href="/#overview">片单概览</a>
+      <a href="/#picks">精选片单</a>
+      <a href="/#updates">更新动态</a>
+      <a href="/#cats">分类索引</a>
+      <a href="/#shallow">深度解析</a>
+      <a href="/#guide">观看指南</a>
+      <a href="/#faq">常见疑问</a>
+      <a href="/#news">相关资讯</a>
+    </nav>
+
+    <div class="head-tools">
+      <div class="search-wrap">
+        <input id="q" type="search" placeholder="搜片名 / 角色 / 年份" aria-label="站内搜索" autocomplete="off">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#767c8c" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/></svg>
+        <div class="search-result" id="sr" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- 首屏 -->
+  <section class="hero" aria-label="主题首屏">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="hero-badge"><span class="dot"></span>档案更新至 2026-11-06 · 共收录 27 条作品</span>
+        <h1>果冻传媒孟若羽<span class="hl">作品档案</span></h1>
+        <p class="hero-lead">把零散片名、剪辑版差异和平台标注不一致的地方逐条对齐。这里按上线日期整理可核对的条目，标注片长、集数、署名与出处，方便补片时少走弯路。</p>
+        <div class="hero-facts">
+          <div class="fact"><b>27</b>收录条目</div>
+          <div class="fact"><b>2023.9</b>最早可查上线</div>
+          <div class="fact"><b>4</b>系列作品</div>
+          <div class="fact"><b>6</b>已核校版本差</div>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-a" href="/#picks">看精选片单
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn-b" href="/#shallow">读版本差异解析</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-card art-a">
+          <div class="num">27</div>
+          <div class="cap">条 目 · 逐 条 对 齐</div>
+        </div>
+        <div class="art-card art-b">
+          <div class="t">版本对照</div>
+          <div class="bars">
+            <i style="height:52%"></i><i style="height:78%"></i><i style="height:40%"></i>
+            <i style="height:90%"></i><i style="height:63%"></i><i style="height:34%"></i>
+          </div>
+          <div style="font-size:11px;opacity:.85;margin-top:6px">正片版 / 剪辑版 时长差 6–15 分钟</div>
+        </div>
+        <div class="art-tag">最近一次更正 <b>11-06</b><br>署名 · 片长字段</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <div class="main-col">
+
+      <!-- 1 领域概览 -->
+      <section class="block" id="overview">
+        <div class="block-h"><span class="kicker">概览</span><h2>作品档案的整体面貌</h2></div>
+        <p class="block-sub">条目口径以片尾演职员表与上线日期为准，换算成统一的年表后，能看出题材集中在哪几段。</p>
+        <p>公开可查的 27 条作品里，2023 年 9 月至 2024 年 3 月上线的有 8 条，2024 年 4 月至 12 月 11 条，2025 年 7 条，2026 年至今 1 条客串。早期条目片长多在 40 分钟上下，2024 年下半年起出现 60 分钟以上的双集结构，2025 年悬疑短剧《回声走廊》改成每集 22 分钟、共 5 集的连载形式。</p>
+        <div class="overview">
+          <div class="ov-item"><b>都市合租</b><span>系列 4 部 · 2024</span></div>
+          <div class="ov-item"><b>悬疑短剧</b><span>系列 2 部 · 2025</span></div>
+          <div class="ov-item"><b>单本短篇</b><span>19 条 · 2023–2026</span></div>
+          <div class="ov-item"><b>客串条目</b><span>2 条 · 2026</span></div>
+        </div>
+        <p class="ov-note">说明：同一作品的正片版与剪辑版视为一条，仅在片长字段标出差异；平台改名导致的重复条目已合并，合并记录见<a href="/#shallow">深度解析</a>第二小节。</p>
+      </section>
+
+      <!-- 2 精选内容推荐 -->
+      <section class="block" id="picks">
+        <div class="block-h"><span class="kicker">精选</span><h2>值得先看的四部代表作</h2><a class="more-link" href="/#cats">更多分类 →</a></div>
+        <p class="block-sub">挑选标准是人物线完整、版本差异小、平台标注可靠，不按播放量排序。</p>
+        <div class="card-grid">
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/mengruoyu-hezu7/560/320" width="560" height="320" loading="lazy" alt="《合租第7天》封面示意：走廊灯光与半开的房门">
+            <div class="pick-body">
+              <span class="chip">都市合租</span>
+              <h3>合租第7天</h3>
+              <p>系列第四部，63 分钟。配角动机解释得最完整，新观众从这部进也不吃力。</p>
+              <div class="pick-meta">2024-11-22 上线 · 正片版 63′ / 剪辑版 51′</div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/mengruoyu-yuyebianli/560/320" width="560" height="320" loading="lazy" alt="《雨夜便利店》封面示意：深夜便利店货架与雨窗">
+            <div class="pick-body">
+              <span class="chip">单本短篇</span>
+              <h3>雨夜便利店</h3>
+              <p>2023 年 9 月上线，早期作品里表演最收敛的一部，42 分钟分上下两集。</p>
+              <div class="pick-meta">2023-09-15 上线 · 上下集各 21′</div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/mengruoyu-huisheng/560/320" width="560" height="320" loading="lazy" alt="《回声走廊》封面示意：长走廊与回声波纹图形">
+            <div class="pick-body">
+              <span class="chip">悬疑短剧</span>
+              <h3>回声走廊</h3>
+              <p>5 集连载，每集 22 分钟。第三集结尾的转场是系列里少见的处理。</p>
+              <div class="pick-meta">2025-06-18 上线 · 共 5 集 · 已完结</div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/mengruoyu-wanfeng/560/320" width="560" height="320" loading="lazy" alt="《晚风邮局》封面示意：傍晚邮局柜台与信封">
+            <div class="pick-body">
+              <span class="chip">单本短篇</span>
+              <h3>晚风邮局</h3>
+              <p>2025 年 11 月上线，48 分钟。全片两个场景，台词密度高，适合二刷。</p>
+              <div class="pick-meta">2025-11-04 上线 · 48′ · 无剪辑版</div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/mengruoyu-jiaoshou/560/320" width="560" height="320" loading="lazy" alt="《交收前夜》封面示意：仓库货箱与手电筒光束">
+            <div class="pick-body">
+              <span class="chip">悬疑短剧</span>
+              <h3>交收前夜</h3>
+              <p>2025 年 3 月上线，4 集。时间线交叉叙述，第一遍容易看漏快递单上的日期。</p>
+              <div class="pick-meta">2025-03-09 上线 · 共 4 集 · 每集 25′</div>
+            </div>
+          </article>
+          <article class="pick-card">
+            <img src="https://picsum.photos/seed/mengruoyu-louTi/560/320" width="560" height="320" loading="lazy" alt="《楼梯间回声》封面示意：老楼楼梯与扶手">
+            <div class="pick-body">
+              <span class="chip">都市合租</span>
+              <h3>楼梯间回声</h3>
+              <p>系列第二部，55 分钟。大量手持镜头，画面晃动明显，对稳定度敏感可先看别的。</p>
+              <div class="pick-meta">2024-06-28 上线 · 55′ / 剪辑版 46′</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3 最新更新 -->
+      <section class="block" id="updates">
+        <div class="block-h"><span class="kicker">动态</span><h2>本周片单核对记录</h2></div>
+        <p class="block-sub">只记录有日期、有出处的变动，未核实的传闻不列入。</p>
+        <ul class="upd-list">
+          <li><span class="d">11-06</span><span class="s"><b>《合租第7天》导演剪辑版片长对照表补入</b>：剪辑版 51 分钟，比正片少 12 分钟，删减集中在开场第 3 至 9 分钟。</span></li>
+          <li><span class="d">11-04</span><span class="s"><b>演职员表更正</b>：2024 年《楼梯间回声》摄影署名此前误记为两人，片尾实为一人，豆瓣条目已于 11-03 由创建者自行修改。</span></li>
+          <li><span class="d">11-02</span><span class="s"><b>官方账号回应竖屏视频传闻</b>：称 10 月下旬流传的一段素材非官方内容，未说明来源，之后没有补充公告。</span></li>
+          <li><span class="d">10-28</span><span class="s"><b>《交收前夜》第 4 集重新上传</b>：11 分 20 秒处音轨修复，此前版本有约 2 秒静音。</span></li>
+          <li><span class="d">10-21</span><span class="s"><b>《晚风邮局》新增字幕轨</b>：普通话字幕与片名标注统一，原版本字幕把“邮局”写成“邮电所”。</span></li>
+          <li><span class="d">10-15</span><span class="s"><b>2023 年早期条目补档</b>：《雨夜便利店》下集在部分平台下线后恢复，恢复时间以平台页面为准。</span></li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="block" id="cats">
+        <div class="block-h"><span class="kicker">索引</span><h2>按题材、年份、角色类型查找</h2></div>
+        <p class="block-sub">三类入口对应不同找片方式，标签名就是片单里实际使用的分类词。</p>
+        <div class="cat-cols">
+          <div class="cat-group">
+            <h3>按题材</h3>
+            <div class="tag-row">
+              <a href="/#picks">都市合租</a>
+              <a href="/#picks">悬疑短剧</a>
+              <a href="/#shallow">便利店夜班</a>
+              <a href="/#picks">邮局题材</a>
+              <a href="/#deep-faq">旧楼空间</a>
+              <a href="/#picks">时间线交叉</a>
+            </div>
+          </div>
+          <div class="cat-group">
+            <h3>按年份</h3>
+            <div class="tag-row">
+              <a href="/#overview">2023 早期</a>
+              <a href="/#picks">2024 系列期</a>
+              <a href="/#picks">2025 短剧期</a>
+              <a href="/#updates">2026 客串</a>
+            </div>
+          </div>
+          <div class="cat-group">
+            <h3>按角色类型</h3>
+            <div class="tag-row">
+              <a href="/#picks">夜班店员</a>
+              <a href="/#picks">合租室友</a>
+              <a href="/#deep-faq">调查者</a>
+              <a href="/#reco">旁观者视角</a>
+              <a href="/#reco">双主角对戏</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="block deep" id="shallow">
+        <div class="block-h"><span class="kicker">深度</span><h2>版本差异与署名词题：三个可核对的判断</h2></div>
+        <p class="block-sub">这一节是全站唯一的长文阅读区，结论都带日期、片长或原文措辞，欢迎拿片尾字幕来对。</p>
+
+        <div class="verdict"><b>判断一：</b>2024 年之后上线的条目里，剪辑版并非“阉割版”，而是另配了开场。以《合租第7天》为例，剪辑版 51 分钟，正片 63 分钟，差额 12 分钟里有 9 分钟是开场铺垫，剩下 3 分钟散在三次转场。剪辑版把开场压成 40 秒的黑底字幕，观众进入情节更快，代价是配角“陈姐”的第一次出场被整段拿掉，后面她为什么认识主角就变得没头没尾。</div>
+
+        <h3>片长差从哪来：一份对照</h3>
+        <table class="cmp">
+          <caption>四部作品的版本对照，数据取自 2026 年 11 月 6 日各平台页面与片尾字幕</caption>
+          <thead><tr><th>作品</th><th>正片版</th><th>剪辑版</th><th>差额去向</th></tr></thead>
+          <tbody>
+            <tr><td>合租第7天</td><td>63′</td><td>51′</td><td>开场 9′ + 转场 3′</td></tr>
+            <tr><td>楼梯间回声</td><td>55′</td><td>46′</td><td>手持镜头段 6′ + 片尾花絮 3′</td></tr>
+            <tr><td>交收前夜（4 集合计）</td><td>100′</td><td>88′</td><td>第 2 集支线 8′ + 片头贴片 4′</td></tr>
+            <tr><td>晚风邮局</td><td>48′</td><td>无剪辑版</td><td>—</td></tr>
+          </tbody>
+        </table>
+        <p>对照里最容易被误读的是《交收前夜》。它的差额里有 4 分钟其实是片头广告，不占正片内容，所以只看播放器时长的观众会以为删了 12 分钟戏。把广告剔掉，实际删减 8 分钟，集中在第 2 集快递员支线。这条支线删掉后主线仍成立，但第 4 集里主角提到“那个跑腿的”就失去指代对象。</p>
+
+        <h3>署名争议的时间线</h3>
+        <p>2024 年 6 月《楼梯间回声》上线时，片尾摄影一栏写的是两个名字。2026 年 10 月 30 日有观众在讨论区贴出截图，指出其中一位在同期另一部作品的片尾并未出现，怀疑是模板沿用。11 月 3 日豆瓣条目创建者把摄影改为一人，11 月 4 日平台页面同步。片方没有发公告，因此“误记”是推断，不是已确认的事实——目前能确认的只有：两个版本的页面对摄影人数的写法不同，且改动发生在 11 月 3 日至 4 日之间。</p>
+
+        <h3>“未公开片段”该怎么核</h3>
+        <p>10 月下旬流传的那段竖屏视频，画面比例 9:16，而《合租第7天》正片是 16:9；视频里走廊灯是冷白光，正片同一场景用的是暖黄光，色温差异肉眼可辨。官方账号 11 月 2 日的回应只有一句“非官方素材”，既没承认也没否认画面中的人是谁。可以确认的是：该素材没有片尾水印，也没有演职员表。至于它是否经过二次剪辑、是否来自未采用的试拍，目前都是推测，没有可核对来源。</p>
+        <ul class="checklist">
+          <li>看片尾有没有制作方水印与完整演职员表</li>
+          <li>比对画面比例与正片是否一致</li>
+          <li>比对同一场景的灯光色温、道具摆放</li>
+          <li>查官方账号在素材流出前后三天的发言</li>
+          <li>确认平台页面的上线日期是否被改动过</li>
+        </ul>
+      </section>
+
+      <!-- 6 体验指南 -->
+      <section class="block" id="guide">
+        <div class="block-h"><span class="kicker">指南</span><h2>补片顺序与观看设置建议</h2></div>
+        <p class="block-sub">按这个顺序走，人物关系不会断；设置项只列真正影响观感的几条。</p>
+        <ol class="steps">
+          <li><b>先看都市合租系列四部，按上线时间排</b><p>2024 年 3 月《合租第1天》、6 月《楼梯间回声》、9 月《合租第5天》、11 月《合租第7天》。四部共用同一栋楼的走廊场景，配角陈姐从第二部开始有独立台词，跳看会接不上。</p></li>
+          <li><b>再补 2025 年两部悬疑短剧</b><p>《交收前夜》4 集在前，《回声走廊》5 集在后。后者第 3 集有一处 8 秒的静音处理，不是音轨损坏，别急着刷新。</p></li>
+          <li><b>然后看单本短篇，挑片长 45 分钟以上的</b><p>《雨夜便利店》42 分钟偏短，铺垫占比高；《晚风邮局》48 分钟两个场景，台词密度最大，适合放在精力好的时段。</p></li>
+          <li><b>最后补 2026 年客串条目</b><p>出场时间约 6 分钟，集中在片中段，前后剧情与本档案片单无直接关联。若只为看出场，可从中段切入。</p></li>
+          <li><b>播放设置：关闭自动连播与画质智能切换</b><p>自动连播会让剪辑版与正片版混着播；画质智能切换在夜景段落容易降码率，走廊暗部细节会糊成一块。</p></li>
+          <li><b>字幕选普通话轨，不看机器翻译</b><p>《晚风邮局》的机器翻译字幕把“邮局”译成“邮电所”，与片中招牌不一致，容易误认场景。</p></li>
+        </ol>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="block" id="deep-faq">
+        <div class="block-h"><span class="kicker">问答</span><h2>常见疑问</h2></div>
+        <p class="block-sub">问题来自搜索词与讨论区高频提问，答案尽量给日期和片长。</p>
+        <details class="faq" open>
+          <summary>孟若羽在果冻传媒最早可查的上线作品是哪一部？</summary>
+          <div class="ans">公开片单里能对上日期的是 2023 年 9 月 15 日上线的《雨夜便利店》，片尾演职员表标注主演，片长约 42 分钟，分上下两集，每集 21 分钟。更早的条目在平台页面已找不到，不能确认。</div>
+        </details>
+        <details class="faq">
+          <summary>同一部作品在不同平台片长为什么不一样？</summary>
+          <div class="ans">正片版与剪辑版分开上线，剪辑版通常砍掉开场铺垫与片尾花絮，时长差在 6 到 15 分钟；部分平台还在片头加贴片广告，计时方式按播放器走，实际内容未必减少。《交收前夜》4 集就差 12 分钟，其中 4 分钟是广告。</div>
+        </details>
+        <details class="faq">
+          <summary>网上流传的“未公开片段”能信吗？</summary>
+          <div class="ans">先看片尾是否带制作方水印与演职员表。2026 年 10 月下旬流传的一段标称竖屏视频，画面比例 9:16、走廊灯为冷白光，与《合租第7天》正片的 16:9、暖黄光不一致；官方账号 11 月 2 日回应称非官方素材，此后未再补充说明。</div>
+        </details>
+        <details class="faq">
+          <summary>想系统补片，按什么顺序看比较省时间？</summary>
+          <div class="ans">按上线时间排：先看 2024 年都市合租系列四部，再看 2025 年《交收前夜》《回声走廊》，最后补 2026 年客串条目。合租系列人物关系连续，陈姐的台词从第二部开始铺垫，跳看第三部会接不上她为什么帮主角。</div>
+        </details>
+        <details class="faq">
+          <summary>豆瓣条目和片方片单对不上，以哪个为准？</summary>
+          <div class="ans">以片方片单的片名与上线日期为准。豆瓣条目多由用户创建，集数、时长字段常滞后；2024 年《楼梯间回声》的摄影署名就出现过两个版本，11 月 3 日才改成一人。评分和短评可以参考，但条目本身可能被合并或拆分。</div>
+        </details>
+        <details class="faq">
+          <summary>搜索片名时出现大量同名结果怎么办？</summary>
+          <div class="ans">叠加限定词：演员名加年份，或加系列名，例如“孟若羽 2024 都市合租”。也可用片尾演职员表里的导演名反查，重名率明显更低。站内搜索同理，输入“合租”比输入单个字更快定位。</div>
+        </details>
+      </section>
+
+      <!-- 8 用户评论 -->
+      <section class="block" id="comments">
+        <div class="block-h"><span class="kicker">评论</span><h2>观众怎么说</h2></div>
+        <p class="block-sub">摘自讨论区，保留原话中的语气与错字，未做润色。</p>
+        <div class="cmt">
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">阿</span><span class="u">阿澈_1024</span><span class="star">★★★★☆</span><span class="t">11-05</span></div>
+            <p>《合租第7天》里陈姐敲门那场戏，正片版有 47 秒的沉默，剪辑版直接剪到开门。少这 47 秒，后面她为什么肯借钱就变成了硬转折。</p>
+          </div>
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">林</span><span class="u">林间慢走</span><span class="star">★★★☆☆</span><span class="t">11-04</span></div>
+            <p>《回声走廊》前两集挺稳，第 4 集解释得太满，把前面留的暗示全说破了。5 集里最值得重看的是第 3 集那段 8 秒静音。</p>
+          </div>
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">小</span><span class="u">小满不加班</span><span class="star">★★★★★</span><span class="t">11-03</span></div>
+            <p>《晚风邮局》两个场景撑 48 分钟，台词一句废话没有。邮局柜台那段长镜头，背景里挂钟指到 17:40，跟台词说的“快下班了”对得上。</p>
+          </div>
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">北</span><span class="u">北纬三十度</span><span class="star">★★☆☆☆</span><span class="t">11-02</span></div>
+            <p>《楼梯间回声》的手持镜头晃得我头晕，撑了 20 分钟退出来。剧本是好的，但这个拍法不是每个人都能接受，建议片方出个稳定版。</p>
+          </div>
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">K</span><span class="u">Kite_zz</span><span class="star">★★★☆☆</span><span class="t">10-31</span></div>
+            <p>说句得罪人的，早期《雨夜便利店》被夸过头了。42 分钟里有 15 分钟在拍货架和雨窗，剧情推进慢，第一次看差点没看完。</p>
+          </div>
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">果</span><span class="u">果核里的宇宙</span><span class="star">★★★★☆</span><span class="t">10-29</span></div>
+            <p>《交收前夜》第 4 集重传后音轨正常了。之前 11 分 20 秒那 2 秒静音，我以为是故意留的悬念，白猜了一晚上。</p>
+          </div>
+          <div class="cmt-item">
+            <div class="cmt-top"><span class="avatar">老</span><span class="u">老周的磁带</span><span class="star">★★★☆☆</span><span class="t">10-26</span></div>
+            <p>豆瓣那个摄影署名改了之后，我回头对了两遍片尾。确实只有一个名字，之前两个名字应该是模板没改干净。这种细节片方该主动说一句。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="block" id="news">
+        <div class="block-h"><span class="kicker">资讯</span><h2>近期相关报道与平台变动</h2></div>
+        <p class="block-sub">每条只给一个信息层，不重复深度解析里的判断。</p>
+        <ul class="news">
+          <li>
+            <span class="nt">《交收前夜》第 4 集音轨修复，平台页面标注 10-28 重传</span>
+            <span class="nb">此前 11 分 20 秒处约 2 秒静音，重传版本已恢复正常，集数与片长未变。<span class="src">来源：平台更新日志</span></span>
+          </li>
+          <li>
+            <span class="nt">官方账号 11-02 发文称竖屏素材非官方内容</span>
+            <span class="nb">回应全文一句，未提素材来源，也未说明是否追究二次传播。<span class="src">来源：官方账号动态</span></span>
+          </li>
+          <li>
+            <span class="nt">豆瓣《楼梯间回声》条目 11-03 修改摄影署名</span>
+            <span class="nb">由两人改为一人，修改者为条目创建者，未附修改理由。平台页面 11-04 同步。<span class="src">来源：条目编辑记录</span></span>
+          </li>
+          <li>
+            <span class="nt">《晚风邮局》10-21 新增普通话字幕轨</span>
+            <span class="nb">原机器翻译字幕把“邮局”写作“邮电所”，新字幕已统一为片中招牌用词。<span class="src">来源：平台页面说明</span></span>
+          </li>
+          <li>
+            <span class="nt">2023 年《雨夜便利店》下集下线后恢复</span>
+            <span class="nb">恢复时间以平台页面为准，上集一直在线，未受影响。<span class="src">来源：平台检索记录</span></span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="block" id="reco">
+        <div class="block-h"><span class="kicker">推荐</span><h2>相关推荐</h2></div>
+        <p class="block-sub">按题材、角色类型和版本差异关联，点开直接落到对应板块。</p>
+        <div class="reco">
+          <a href="/#picks">都市合租系列四部曲顺序</a>
+          <a href="/#picks">悬疑短剧《回声走廊》5 集</a>
+          <a href="/#shallow">正片版与剪辑版片长对照</a>
+          <a href="/#deep-faq">便利店夜班题材条目</a>
+          <a href="/#guide">补片顺序与播放设置</a>
+          <a href="/#comments">《晚风邮局》长镜头讨论</a>
+          <a href="/#news">摄影署名修改记录</a>
+          <a href="/#rank">2025 年作品观看完成度榜</a>
+          <a href="/#guide">旧楼空间场景识别</a>
+          <a href="/#deep-faq">同名片名搜索结果筛选</a>
+        </div>
+      </section>
+
+      <!-- 11 榜单 -->
+      <section class="block" id="rank">
+        <div class="block-h"><span class="kicker">榜单</span><h2>2025 年作品观看完成度榜</h2></div>
+        <p class="block-sub">统计口径来自讨论区自报“看完”的留言条数，样本 214 条，不代表播放量，仅供参考。</p>
+        <ol class="rank">
+          <li><span><span class="rk-t">晚风邮局</span><span class="rk-m">48′ · 单一场景 · 完成度 91%</span></span></li>
+          <li><span><span class="rk-t">回声走廊</span><span class="rk-m">5 集 · 每集 22′ · 完成度 84%，第 4 集流失最多</span></span></li>
+          <li><span><span class="rk-t">交收前夜</span><span class="rk-m">4 集 · 每集 25′ · 完成度 78%，音轨修复后回升</span></span></li>
+          <li><span><span class="rk-t">晚风邮局（重看）</span><span class="rk-m">二次观看留言 37 条 · 台词密度是主因</span></span></li>
+          <li><span><span class="rk-t">雨夜便利店（补看）</span><span class="rk-m">2023 条目 · 补看完成度 62%，开场铺垫是流失点</span></span></li>
+        </ol>
+        <p class="ov-note">说明：完成度按“留言称看完”除以“留言称开始看”计算，样本量小，排序靠后的条目差异未必显著。</p>
+      </section>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="side-col" aria-label="侧栏导航与补充信息">
+      <div class="side-card">
+        <h3>栏目导航</h3>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">片单概览</a></li>
+          <li><a href="/#picks">精选片单</a></li>
+          <li><a href="/#updates">更新动态</a></li>
+          <li><a href="/#cats">分类索引</a></li>
+          <li><a href="/#shallow">深度解析</a></li>
+          <li><a href="/#guide">观看指南</a></li>
+          <li><a href="/#deep-faq">常见疑问</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+          <li><a href="/#rank">完成度榜</a></li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <h3>上线时间线</h3>
+        <ul class="timeline">
+          <li><b>2023-09-15</b>雨夜便利店（上下集）</li>
+          <li><b>2024-03-12</b>合租第1天</li>
+          <li><b>2024-06-28</b>楼梯间回声</li>
+          <li><b>2024-11-22</b>合租第7天</li>
+          <li><b>2025-03-09</b>交收前夜（4 集）</li>
+          <li><b>2025-06-18</b>回声走廊（5 集）</li>
+          <li><b>2025-11-04</b>晚风邮局</li>
+        </ul>
+        <p class="side-note">只列可核对上线日期的条目，客串与未标注日期的 6 条不在此列。</p>
+      </div>
+
+      <div class="side-card">
+        <h3>核对清单</h3>
+        <ul class="checklist" style="font-size:12.5px">
+          <li>片尾演职员表截图</li>
+          <li>上线日期与平台页面一致</li>
+          <li>片长按正片计算，剔除贴片</li>
+          <li>剪辑版单独标注差额</li>
+          <li>传闻类信息标为未证实</li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <h3>热门查找</h3>
+        <ul class="side-list">
+          <li><span class="sn">01</span><a href="/#picks">合租第7天 剪辑版 51 分钟</a></li>
+          <li><span class="sn">02</span><a href="/#shallow">楼梯间回声 摄影署名</a></li>
+          <li><span class="sn">03</span><a href="/#deep-faq">雨夜便利店 上下集</a></li>
+          <li><span class="sn">04</span><a href="/#guide">回声走廊 第 3 集 静音</a></li>
+          <li><span class="sn">05</span><a href="/#news">交收前夜 第 4 集 重传</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="15" fill="#f24b6a"/>
+            <circle cx="32" cy="25" r="10.5" fill="#ffe9ee"/>
+            <path d="M13 55c3-12.5 10.5-17.5 19-17.5S48 42.5 51 55z" fill="#ffe9ee"/>
+          </svg>
+          <strong>果冻传媒孟若羽</strong>
+        </div>
+        <p class="foot-desc">以片尾演职员表和上线日期为准，逐条核对片名、片长与版本差异，给补片的人一份能对得上的清单。</p>
+      </div>
+      <div class="foot-col">
+        <h4>片单</h4>
+        <ul>
+          <li><a href="/#overview">片单概览</a></li>
+          <li><a href="/#picks">精选片单</a></li>
+          <li><a href="/#cats">分类索引</a></li>
+          <li><a href="/#rank">完成度榜</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>阅读</h4>
+        <ul>
+          <li><a href="/#shallow">版本差异解析</a></li>
+          <li><a href="/#guide">补片顺序指南</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>查询</h4>
+        <ul>
+          <li><a href="/#updates">本周核对记录</a></li>
+          <li><a href="/#deep-faq">常见疑问</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+          <li><a href="/#top">回到顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>全站 27 条作品条目、6 条版本核对记录均为示例数据，日期截至 2026-11-08 前 30 天；不提供播放与下载入口，仅作片单整理。页脚更新时间 2026-11-08，对应正文可核对更新项为 11-06 片长对照与 11-04 署名更正。</span>
+      <span>© 2026 果冻传媒孟若羽作品档案 · 非官方整理</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+(function(){
+  // 移动端菜单
+  var menuBtn=document.getElementById('menuBtn');
+  var headNav=document.getElementById('headNav');
+  menuBtn.addEventListener('click',function(){
+    var open=headNav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded',open?'true':'false');
+    menuBtn.setAttribute('aria-label',open?'收起主题导航':'展开主题导航');
+  });
+  headNav.addEventListener('click',function(e){
+    if(e.target.tagName==='A' && window.matchMedia('(max-width:720px)').matches){
+      headNav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+  });
+  document.addEventListener('click',function(e){
+    if(headNav.classList.contains('open') && !headNav.contains(e.target) && !menuBtn.contains(e.target)){
+      headNav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+  });
+  // Esc 收起菜单与搜索结果
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){
+      headNav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+      sr.classList.remove('on');
+    }
+  });
+
+  // 本地搜索
+  var q=document.getElementById('q');
+  var sr=document.getElementById('sr');
+  var data=[
+    {t:'合租第7天',m:'2024-11-22 · 正片 63′ / 剪辑 51′',id:'picks'},
+    {t:'合租第1天',m:'2024-03-12 · 合租系列第一部',id:'picks'},
+    {t:'楼梯间回声',m:'2024-06-28 · 手持镜头 · 55′',id:'picks'},
+    {t:'雨夜便利店',m:'2023-09-15 · 上下集各 21′',id:'picks'},
+    {t:'回声走廊',m:'2025-06-18 · 5 集 · 每集 22′',id:'picks'},
+    {t:'交收前夜',m:'2025-03-09 · 4 集 · 每集 25′',id:'picks'},
+    {t:'晚风邮局',m:'2025-11-04 · 48′ · 单一场景',id:'picks'},
+    {t:'版本差异对照',m:'片长差 6–15 分钟去向',id:'shallow'},
+    {t:'摄影署名修改',m:'2026-11-03 豆瓣改为一人',id:'news'},
+    {t:'补片顺序',m:'合租系列 → 悬疑短剧 → 短篇',id:'guide'},
+    {t:'常见疑问',m:'上线日期、片长、传闻辨别',id:'deep-faq'},
+    {t:'完成度榜',m:'2025 年作品观看完成度',id:'rank'}
+  ];
+  function render(kw){
+    var k=kw.trim().toLowerCase();
+    if(!k){sr.classList.remove('on');sr.innerHTML='';return;}
+    var hit=data.filter(function(d){return (d.t+d.m).toLowerCase().indexOf(k)>-1;});
+    if(!hit.length){
+      sr.innerHTML='<div class="sr-empty">没有找到“'+kw.replace(/[<>&]/g,'')+'”相关条目，试试片名关键词，如“合租”或“邮局”。</div>';
+    }else{
+      sr.innerHTML=hit.slice(0,7).map(function(d){
+        return '<a class="sr-item" href="/#'+d.id+'">'+d.t+'<br><span class="sr-meta">'+d.m+'</span></a>';
+      }).join('');
+    }
+    sr.classList.add('on');
+  }
+  var tmr=null;
+  q.addEventListener('input',function(){
+    clearTimeout(tmr);
+    var v=q.value;
+    tmr=setTimeout(function(){render(v);},160);
+  });
+  q.addEventListener('focus',function(){ if(q.value.trim()) render(q.value); });
+  document.addEventListener('click',function(e){
+    if(!sr.contains(e.target) && e.target!==q) sr.classList.remove('on');
+  });
+  sr.addEventListener('click',function(){ sr.classList.remove('on'); q.value=''; });
+
+  // 侧栏滚动高亮
+  var links=[].slice.call(document.querySelectorAll('#sideNav a'));
+  var targets=links.map(function(a){
+    var id=a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  });
+  function onScroll(){
+    var pos=window.scrollY+140;
+    var idx=-1;
+    targets.forEach(function(el,i){ if(el && el.offsetTop<=pos) idx=i; });
+    links.forEach(function(a,i){ a.classList.toggle('active',i===idx); });
+    document.getElementById('toTop').classList.toggle('on',window.scrollY>520);
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+
+  // 回到顶部
+  document.getElementById('toTop').addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  });
+})();
+</script>
+</body>
+  </html>
